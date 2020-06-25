@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Repetição4 {
+public class RepetiÃ§Ã£o4 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -9,13 +9,14 @@ public class Repetição4 {
 		int x,y=1,val=0;
 		
 		do {
-			System.out.printf("Digite um número: ",y);
+			System.out.printf("Digite um nÃºmero: ",y);
 			x=entrada.nextInt();
 			y++;
 			
 		if(x>val) {
-			val=0;
-			val+=x;}
+			
+			val =x;
+		}
 		}while(y<16);
 		System.out.print("Maior valor fornecido: "+val+"");
 	}
